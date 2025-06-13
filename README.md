@@ -1,5 +1,6 @@
 # Ace-Jinwoo OS
 
+
 This repository provides a minimal Nix flake that builds an Athena OS based system customised with the **Ace‑Jinwoo** theme.
 
 The configuration reuses [Athena OS](https://github.com/Athena-OS/athena-nix) modules and applies a custom theme defined in `modules/ace-jinwoo-theme`.
@@ -30,3 +31,28 @@ VMware guest tools are enabled out of the box so the system integrates smoothly 
 ## Customisation
 
 Edit `configuration.nix` to adjust options such as desktop environment or packages. The Ace-Jinwoo theme itself can be tweaked in `modules/ace-jinwoo-theme/default.nix`.
+
+**Ace-Jinwoo OS** is a minimal yet powerful NixOS flake that builds a customized Athena OS environment. It ships with a Deepin desktop themed in the Ace-Jinwoo style, and is tailored for clarity, beauty, and extensibility — whether you're running native or inside VMware.
+
+---
+
+## 🌱 Getting Started
+
+### Prerequisites
+
+- [Nix](https://nixos.org/download.html) must be installed with flakes enabled.
+- A system with at least **4 GB RAM** and **20 GB disk** recommended.
+- (Optional) [VMware Workstation](https://www.vmware.com/products/workstation-pro.html) for VM deployment.
+
+---
+
+### 🛠 Install Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/PhantomRoland/Ace-Jinwoo ace-jinwoo
+cd ace-jinwoo
+
+# Switch to the system using nixos-rebuild
+sudo nixos-rebuild switch --flake .#acejinwoo --impure
+

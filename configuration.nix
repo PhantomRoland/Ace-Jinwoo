@@ -17,6 +17,12 @@
     theme = "ace-jinwoo";
   };
 
+
   # Enable VMware guest integration
   virtualisation.vmware.guest.enable = true;
+
+
+  # Enable VMware guest integration
+  virtualisation.vmware.guest.enable = true;
+
 }
