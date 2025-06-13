@@ -18,7 +18,7 @@ The configuration reuses [Athena OS](https://github.com/Athena-OS/athena-nix) mo
    ```
    The `--impure` flag allows using your local `hardware-configuration.nix`.
 
-The default user configured is `ace` with the Ace-Jinwoo themed desktop.
+The default user configured is `ace` with the Ace-Jinwoo themed Deepin desktop.
 
 ## Customisation
 

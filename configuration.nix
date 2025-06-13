@@ -8,7 +8,7 @@
     baseSoftware = true;
     baseLocale = true;
     homeManagerUser = "ace";
-    desktopManager = "gnome";
+    desktopManager = "deepin";
     displayManager = "sddm";
     mainShell = "fish";
     terminal = "kitty";
