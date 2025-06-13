@@ -20,6 +20,11 @@ The configuration reuses [Athena OS](https://github.com/Athena-OS/athena-nix) mo
 
 The default user configured is `ace` with the Ace-Jinwoo themed Deepin desktop.
 
+<<<<<<< zmxy5i-codex/set-up-custom-ace-jinwoo-os
+VMware guest tools are enabled out of the box so the system integrates smoothly when run inside VMware products. The build sets `virtualisation.vmware.guest.enable = true` so the `open-vm-tools` service starts automatically.
+
+=======
+>>>>>>> main
 ## Customisation
 
 Edit `configuration.nix` to adjust options such as desktop environment or packages. The Ace-Jinwoo theme itself can be tweaked in `modules/ace-jinwoo-theme/default.nix`.
